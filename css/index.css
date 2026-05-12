@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../img/fundo-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position-x: center;
+    /* #D5C69A */
+}
+main{
+    width: 90%;
+    height: 80vh;
+    background: #D5C69A;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10vh;
+}
