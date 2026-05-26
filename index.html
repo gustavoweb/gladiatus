@@ -7,14 +7,23 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
+    <nav>
+        <img src="./img/logo-branco.png" alt="Logo Gladiatus">
+    </nav>
+
     <main>
-        <label for="usuario">Login</label>
+        <label for="usuario">E-mail</label>
         <input type="text" id="usuario">
 
         <label for="senha">Senha</label>
         <input type="password" id="senha">
 
-        <p id="termos">O jogo é coberto pelo nosso T&Cs e Política de Privacidade.</p>
+        <div id="log-aut">
+            <input type="checkbox" id="logon">
+            <label for="logon">Login Automático</label>
+        </div>
+
+        <p id="termos">Ao efetuar o login, eu aceito o <strong>T&Cs</strong>.</p>
 
         <button>LOGIN</button>
         <button>Logar pelo Facebook</button>
